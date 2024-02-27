@@ -1,4 +1,4 @@
 # html-css
  Curso em Video HTML CSS
 
- Aprendendo a criar site e e gerenciar repositórios
+ Aprendendo a criar site e a gerenciar repositórios
