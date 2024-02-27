@@ -1,4 +1,4 @@
 # html-css
  Curso em Video HTML CSS
 
- Aprendendo a criar sítes e agora a gerenciar os meus repositórios
+ Aprendendo HTML CSS <a href="https://www.youtube.com/cursoemvideo">Curso em Video</a> e agora a gerenciar repositórios
