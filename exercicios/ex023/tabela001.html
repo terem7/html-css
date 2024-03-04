@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 400px;
+            border-collapse: collapse;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        
+        .linha {
+            background-color: gray;
+        }
+
+        .dado {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha primeira tabela</h1>
+<!-- 
+    HIERARQUIA DE TABELAS (simples)
+    TABLE = tabela
+        TABLE ROM = linha de tabela
+        TABLE DATA = dado de tabela
+
+-->
+<table>
+    <tr> 
+        <!-- Primera linha --> 
+        <td>a1</td>
+        <td>b1</td>
+        <td>c1</td>
+    </tr>
+    <tr class="linha"> 
+        <!-- Segunda linha -->
+        <td>a2</td>
+        <td>b2</td>
+        <td>c2</td>
+    </tr>
+    <tr>
+        <!-- Terceira linha -->
+        <td>a3</td>
+        <td>b3</td>
+        <td>c3</td>
+    </tr>
+    <tr>
+        <!-- quarta linha -->
+        <td>a4</td>
+        <td class="dado">b4</td>
+        <td>c4</td>
+    </tr>
+    <tr>
+        <td>a5</td>
+        <td>b5</td>
+    </tr>
+    <tr>
+        <td>a6</td>
+    </tr>
+</table>
+</body>
+</html>
