@@ -5,25 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Astrounauta</title>
   <style>
-    body {
-      background-image: url(imagens/espaco.jpg);
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
     }
-    img {
-      position: absolute;
-      height: 200px;
-      width: 200px;
-      
-      left: 50%;
-      top: 50%;
 
-      transform: translate(-50%, -50%);
+    body {
+      display: flex;
+      background-image: url(imagens/espaco.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      width: 100vw;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+    }
+    .astrounauta {
+      background: url(imagens/astronauta.png) center/cover;
+      width: 300px;
+      height: 300px;
     }
   </style>
 </head>
 <body>
-  <img src="imagens/astronauta.png" alt="">
+  <div class="astrounauta"></div>
 </body>
 </html>
