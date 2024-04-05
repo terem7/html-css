@@ -11,26 +11,26 @@
       box-sizing: border-box;
     }
 
-    body {
-      display: flex;
-      background-image: url(imagens/espaco.jpg);
-      background-position: center;
-      background-repeat: no-repeat;
+    .container {
+      background: url(imagens/espaco.jpg) no-repeat;
       background-size: cover;
       background-attachment: fixed;
-      width: 100vw;
-      height: 100vh;
-      justify-content: center;
-      align-items: center;
     }
+    
     .astrounauta {
-      background: url(imagens/astronauta.png) center/cover;
-      width: 300px;
-      height: 300px;
+      position: absolute;
+      background: url(imagens/astronauta.png) no-repeat;
+      background-size: cover;
+      width: 200px;
+      height: 200px;
+
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
   </style>
 </head>
-<body>
+<body class="container">
   <div class="astrounauta"></div>
 </body>
 </html>
