@@ -3,34 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Astrounauta</title>
+  <title>Astronauta</title>
   <style>
-    * {
+    body {
       margin: 0;
-      padding: 0;
-      box-sizing: border-box;
+      background: url(imagens/espaco.jpg) center/cover fixed no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
     }
 
-    .container {
-      background: url(imagens/espaco.jpg) no-repeat;
-      background-size: cover;
-      background-attachment: fixed;
-    }
-    
-    .astrounauta {
-      position: absolute;
-      background: url(imagens/astronauta.png) no-repeat;
-      background-size: cover;
+    .astronauta {
       width: 200px;
       height: 200px;
-
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+      background: url(imagens/astronauta.png) center/cover no-repeat;
     }
   </style>
 </head>
-<body class="container">
-  <div class="astrounauta"></div>
+<body>
+  <div class="astronauta"></div>
 </body>
 </html>
